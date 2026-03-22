@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrainWorks 2026 | The Brain Abnormality Workshop</title>
+    <meta
+      name="description"
+      content="BrainWorks 2026 is a MICCAI workshop advancing computational neuroimaging and computational neuropathology methods for brains with abnormalities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#top">
+          <span class="brand-mark">BW</span>
+          <span>
+            <strong>BrainWorks 2026</strong>
+            <small>The Brain Abnormality Workshop</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#topics">Topics</a>
+          <a href="#program">Program</a>
+          <a href="#organizers">Organizers</a>
+          <a href="#submit">Call for Papers</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">MICCAI 2026 Workshop</p>
+            <h1>BrainWorks 2026</h1>
+            <p class="hero-subtitle">The Brain Abnormality Workshop</p>
+            <p class="hero-copy">
+              Advancing computational neuroimaging and computational neuropathology methods that remain reliable in the
+              presence of tumors, traumatic brain injury, multiple sclerosis, infection, diffuse pathology, and imaging artifacts.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#submit">View call for papers</a>
+              <a class="button button-secondary" href="#program">See preliminary program</a>
+            </div>
+          </div>
+          <aside class="hero-panel">
+            <h2>Workshop at a glance</h2>
+            <ul class="facts-list">
+              <li><span>Event</span><strong>MICCAI 2026 workshop</strong></li>
+              <li><span>Format</span><strong>3-hour workshop within a full thematic day</strong></li>
+              <li><span>Proceedings</span><strong>Springer LNCS</strong></li>
+              <li><span>Expected submissions</span><strong>45</strong></li>
+              <li><span>Expected accepted papers</span><strong>15</strong></li>
+              <li><span>Expected attendance</span><strong>80–120 in person</strong></li>
+              <li><span>Dates</span><strong>TBD</strong></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container two-column">
+          <div>
+            <p class="section-label">Why BrainWorks</p>
+            <h2>Robust methods for real-world abnormal brain data</h2>
+          </div>
+          <div class="stack">
+            <p>
+              BrainWorks aims to advance computational neuroimaging and computational neuropathology methods that operate
+              effectively in the presence of brain abnormalities. Many machine learning methods in neuroimaging were developed
+              and validated using neurologically healthy cohorts, which can lead to reduced performance when anatomy, tissue
+              integrity, or signal characteristics depart from normative assumptions.
+            </p>
+            <p>
+              BrainWorks creates a forum for pathology-aware, generalisable image computing methods that explicitly address
+              tumors, acquired brain injuries, enlarged perivascular spaces, infection, diffuse pathology, and imaging artifacts.
+              The workshop emphasizes both methodological innovation and careful analysis of failure modes in clinically realistic data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <p class="section-label">Primary aims</p>
+          <div class="cards-grid four-up">
+            <article class="card">
+              <h3>Robustness</h3>
+              <p>Promote methods that explicitly account for abnormal anatomy, pathology-induced signal changes, and artifacts.</p>
+            </article>
+            <article class="card">
+              <h3>Cross-pathology exchange</h3>
+              <p>Bridge traditionally siloed communities across tumors, traumatic brain injury, stroke, MS, infection, and more.</p>
+            </article>
+            <article class="card">
+              <h3>Clinical relevance</h3>
+              <p>Connect computation with diagnosis, prognosis, treatment planning, and deployment-ready biomarkers.</p>
+            </article>
+            <article class="card">
+              <h3>Reproducibility</h3>
+              <p>Support shared datasets, evaluation protocols, benchmarks, and challenge-based comparisons.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="topics">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Topics in scope</p>
+              <h2>Methods, data, and analyses for brains with abnormalities</h2>
+            </div>
+            <p>
+              BrainWorks welcomes contributions across imaging modalities, abnormality categories, and downstream clinical tasks.
+              Negative results, robustness analyses, and real-world deployment studies are explicitly encouraged.
+            </p>
+          </div>
+          <div class="chips">
+            <span>Segmentation</span>
+            <span>Registration</span>
+            <span>Classification</span>
+            <span>Detection</span>
+            <span>Radiomics</span>
+            <span>Imaging-genomics</span>
+            <span>Inpainting &amp; synthesis</span>
+            <span>Reconstruction</span>
+            <span>Harmonization</span>
+            <span>Domain-shift adaptation</span>
+            <span>Uncertainty estimation</span>
+            <span>Explainability</span>
+            <span>Foundation models</span>
+            <span>Multi-modal fusion</span>
+            <span>Digital neuropathology</span>
+            <span>Imaging artifacts</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="submit">
+        <div class="container two-column">
+          <div>
+            <p class="section-label">Call for papers</p>
+            <h2>Submit work on pathology-aware brain image computing</h2>
+            <p>
+              We invite submissions on all aspects of medical image computation and computer assisted interventions involving
+              brains with abnormalities, from focal lesions to diffuse pathology and artifacts.
+            </p>
+          </div>
+          <div class="stack">
+            <ul class="feature-list">
+              <li>Methodological innovations and rigorous quantitative evaluations.</li>
+              <li>Publicly available datasets, benchmarks, and robustness studies.</li>
+              <li>Foundational, explainable, or uncertainty-aware approaches.</li>
+              <li>Work that supports diagnosis, prognosis, decision-making, and treatment planning.</li>
+              <li>Studies highlighting bias, limitations, failure cases, and negative results.</li>
+            </ul>
+            <div class="notice-box">
+              <strong>Submission details:</strong>
+              <p>
+                Submission dates, formatting deadlines, and the OpenReview launch will be posted as soon as they are confirmed.
+                For now, all important dates remain <strong>TBD</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="program">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Preliminary thematic day</p>
+              <h2>Coordinated with AIMS-TBI and the BraTS 2026 challenge cluster</h2>
+            </div>
+            <p>
+              BrainWorks is designed as part of a coordinated day on brain abnormalities. The schedule below reflects the current
+              preliminary structure and can be refined as final logistics are confirmed.
+            </p>
+          </div>
+          <div class="timeline-grid">
+            <article class="timeline-card">
+              <h3>BrainWorks Session 1</h3>
+              <ul>
+                <li><strong>08:00</strong> Welcome</li>
+                <li><strong>08:10</strong> 9 accepted BrainWorks papers</li>
+                <li><strong>10:00</strong> Coffee break</li>
+              </ul>
+            </article>
+            <article class="timeline-card">
+              <h3>BrainWorks Session 2 + AIMS-TBI</h3>
+              <ul>
+                <li><strong>10:30</strong> Introduction</li>
+                <li><strong>10:35</strong> Keynote: Paul Thompson (USC, ENIGMA General Chair)</li>
+                <li><strong>11:30</strong> AIMS-TBI overview</li>
+                <li><strong>11:45</strong> Top 3 teams</li>
+                <li><strong>12:15</strong> Results &amp; awards</li>
+                <li><strong>12:30</strong> Lunch</li>
+              </ul>
+            </article>
+            <article class="timeline-card">
+              <h3>BraTS 2026 Session 1</h3>
+              <ul>
+                <li><strong>13:30</strong> BraTS 2026 overview</li>
+                <li><strong>13:35</strong> BraTS-Metastasis Segmentation</li>
+                <li><strong>14:10</strong> BraTS-Pediatrics Segmentation</li>
+                <li><strong>14:45</strong> BraTS-Generalizability Segmentation</li>
+                <li><strong>15:20</strong> Results &amp; awards</li>
+                <li><strong>15:30</strong> Coffee break</li>
+              </ul>
+            </article>
+            <article class="timeline-card">
+              <h3>BraTS 2026 Session 2</h3>
+              <ul>
+                <li><strong>16:00</strong> BraTS-Pathology</li>
+                <li><strong>17:00</strong> BraTS-Inpainting</li>
+                <li><strong>17:50</strong> Close</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="organizers">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Organizing team</p>
+              <h2>Led by researchers across neuroimaging, AI, and clinical translation</h2>
+            </div>
+            <p>
+              BrainWorks is organized by a cross-institutional team spanning early-, mid-, and senior-career researchers with
+              expertise in neuroimaging, computer vision, machine learning, and clinical applications.
+            </p>
+          </div>
+          <div class="cards-grid three-up">
+            <article class="card person-card">
+              <p class="card-kicker">Organizing committee</p>
+              <h3>Evelyn Deutscher</h3>
+              <p>Murdoch Children’s Research Institute</p>
+              <a href="mailto:evelyn.deutscher@mcri.edu.au">evelyn.deutscher@mcri.edu.au</a>
+              <p class="muted">Primary contact</p>
+            </article>
+            <article class="card person-card">
+              <p class="card-kicker">Organizing committee</p>
+              <h3>Ujjwal Baid</h3>
+              <p>Emory University</p>
+              <a href="mailto:ujjwal.raghunandan.baid@emory.edu">ujjwal.raghunandan.baid@emory.edu</a>
+            </article>
+            <article class="card person-card">
+              <p class="card-kicker">Advisory board</p>
+              <h3>Spyridon Bakas</h3>
+              <p>Indiana University School of Medicine</p>
+            </article>
+            <article class="card person-card">
+              <p class="card-kicker">Advisory board</p>
+              <h3>Emily Dennis</h3>
+              <p>University of Utah</p>
+            </article>
+            <article class="card person-card">
+              <p class="card-kicker">Advisory board</p>
+              <h3>Matthew Pease</h3>
+              <p>Indiana University School of Medicine</p>
+            </article>
+            <article class="card person-card compact-card">
+              <p class="card-kicker">Program committee</p>
+              <p>
+                Elisabeth Wilde · Nicola De Souza · Neda Jahanshad · Carla Pitarch-Abaigar · Sook-Lei Liew · Phoebe Imms ·
+                Alexandra Paxinou · Adrian Onicas · Andrei Irimia · Frank Hillary · Eamonn Kennedy · Sanket Kachole · Jayden You
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <p class="section-label">FAQ</p>
+          <div class="faq-list">
+            <article>
+              <h3>Who should submit?</h3>
+              <p>
+                Researchers and clinicians working on computational neuroimaging, neuropathology, biomarkers, segmentation,
+                registration, classification, harmonization, multimodal fusion, robustness, and related topics in abnormal brain data.
+              </p>
+            </article>
+            <article>
+              <h3>Are negative results welcome?</h3>
+              <p>Yes. BrainWorks explicitly welcomes studies that analyze limitations, failure cases, and gaps between benchmarks and real-world deployment.</p>
+            </article>
+            <article>
+              <h3>Will proceedings be published?</h3>
+              <p>Yes. The workshop plans proceedings in the MICCAI Satellite Events Joint Springer LNCS proceedings.</p>
+            </article>
+            <article>
+              <h3>How is BrainWorks different from BraTS or AIMS-TBI?</h3>
+              <p>BrainWorks is the broader scientific forum spanning multiple brain abnormalities and methodological questions, complementing task-specific challenge benchmarking efforts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>BrainWorks 2026</strong>
+          <p>The Brain Abnormality Workshop at MICCAI 2026.</p>
+        </div>
+        <div>
+          <strong>Important dates</strong>
+          <p>All submission and notification dates are currently <strong>TBD</strong>.</p>
+        </div>
+        <div>
+          <strong>Contact</strong>
+          <p><a href="mailto:evelyn.deutscher@mcri.edu.au">evelyn.deutscher@mcri.edu.au</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
