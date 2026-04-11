@@ -28,6 +28,12 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+
+      - name: Validate homepage artifact
+        run: |
+          test -f index.html
+          grep -q "<!DOCTYPE html>" index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
