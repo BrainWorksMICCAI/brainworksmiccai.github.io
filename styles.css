@@ -618,3 +618,51 @@ h3 {
   max-width: 92%;
 }
 
+
+.logos-panel {
+  align-content: start;
+}
+
+.image-logo-card {
+  min-height: 20rem;
+  padding: 1rem;
+}
+
+.hero-logo-image {
+  max-height: 18rem;
+}
+
+.miccai-logo-image {
+  max-width: 100%;
+  max-height: 16rem;
+}
+
+@media (max-width: 960px) {
+  .image-logo-card {
+    min-height: auto;
+  }
+  .hero-logo-image {
+    max-height: none;
+  }
+}
+
+
+.program-intro {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.program-summary {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(1.25rem, 2.4vw, 1.95rem);
+  font-weight: 600;
+  line-height: 1.45;
+  max-width: 100%;
+}
+
+.partner-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
