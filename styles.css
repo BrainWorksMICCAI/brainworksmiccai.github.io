@@ -661,12 +661,6 @@ h3 {
   max-width: 100%;
 }
 
-.partner-meta {
-  margin: 0;
-  color: var(--muted);
-  font-size: 1.08rem;
-}
-
 
 .program-summary {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -677,7 +671,7 @@ h3 {
 }
 
 .partner-card h3 {
-  font-size: clamp(2rem, 3.4vw, 3rem);
+  font-size: clamp(1.75rem, 2.8vw, 2.6rem);
   margin-bottom: 0.8rem;
 }
 
